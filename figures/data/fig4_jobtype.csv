@@ -1,0 +1,27 @@
+wave,panel,row,row_order,run,source,estimate,lo,hi,n_draws
+wave1,a,Elementary occupations (ISCO 9),0,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.2072562797562166,0.1103963621984262,0.3636995678133399,100
+wave1,a,Basic skill (ISCO 4-8),1,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.2124101155580469,0.1215160281597613,0.3663679222345604,100
+wave1,a,Medium skill (ISCO 3),2,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.2196095750073154,0.1259279694955417,0.3816991583805643,100
+wave1,a,High skill (ISCO 2),3,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.2386581946054551,0.135720989015278,0.4170715704909736,100
+wave1,a,Management (ISCO 1),4,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.208245488662528,0.1158975483580975,0.3638726130210902,100
+wave1,a,Self-employed,5,uniform,"socio13*age -> tier*age, age-standardised, ages 20-69",0.1273827012948249,0.0693163459440499,0.2239450640362673,100
+wave1,b,"Protection ratio, large workplace vs no workplace attachment",1,uniform,readout:workplace_band_wa_exposure_protection_ratio,2.5523126774199296,1.9915028670679216,3.5171753744562744,100
+wave1,b,"Income gradient in protection, poorest vs richest",2,uniform,readout:income_wa.RII_prot_frac,0.6666384933508893,0.5405663056967572,0.7324679208451071,100
+wave1,b,   at fixed workplace attachment,3,uniform,readout:income_wa_exposure_fixed_std.RII_prot_frac,0.8161743341667158,0.6270290469787937,0.8875222618220625,100
+wave1,b,   within basic skill employees,4,uniform,"income*socio13*age restricted to ['134'], age-standardised",0.8641125978306761,0.7637526736157415,0.9894847114538708,100
+wave1,b,   within medium skill employees,5,uniform,"income*socio13*age restricted to ['133'], age-standardised",0.8278750638418824,0.6364879204518763,0.9652302706416158,100
+wave1,b,   within high skill employees,6,uniform,"income*socio13*age restricted to ['132'], age-standardised",0.7988569825938373,0.6582314718709904,0.9677130166191448,100
+wave1,b,   within management,7,uniform,"income*socio13*age restricted to ['131'], age-standardised",0.7298681743469403,0.4185457848059666,1.1367052912137243,100
+wave1,a,Elementary occupations (ISCO 9),0,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.1419742341260466,0.06081316606144649,0.31051074391283817,100
+wave1,a,Basic skill (ISCO 4-8),1,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.18507505349659548,0.09745342074157871,0.34279811860787235,100
+wave1,a,Medium skill (ISCO 3),2,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.2416490898011967,0.14424214053727008,0.40287696891476965,100
+wave1,a,High skill (ISCO 2),3,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.29131355557963196,0.17772403827808803,0.45464939765019585,100
+wave1,a,Management (ISCO 1),4,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.25105110300604827,0.14448943187039417,0.4073795617492044,100
+wave1,a,Self-employed,5,weighted,"socio13*age -> tier*age, age-standardised, ages 20-69",0.1231810097932491,0.07013702205792277,0.2292632568642181,100
+wave1,b,"Protection ratio, large workplace vs no workplace attachment",1,weighted,readout:workplace_band_wa_exposure_protection_ratio,2.613859937381769,2.0919237039774625,3.6789277467161603,100
+wave1,b,"Income gradient in protection, poorest vs richest",2,weighted,readout:income_wa.RII_prot_frac,0.5763876227898206,0.41925849815866045,0.6570015690348178,100
+wave1,b,   at fixed workplace attachment,3,weighted,readout:income_wa_exposure_fixed_std.RII_prot_frac,0.7138295467378375,0.49139981096698976,0.8160683782767248,100
+wave1,b,   within basic skill employees,4,weighted,"income*socio13*age restricted to ['134'], age-standardised",0.8109344029806564,0.6823894592440256,0.973480341660773,100
+wave1,b,   within medium skill employees,5,weighted,"income*socio13*age restricted to ['133'], age-standardised",0.791529095058759,0.6648609711691789,0.8937552444846142,100
+wave1,b,   within high skill employees,6,weighted,"income*socio13*age restricted to ['132'], age-standardised",0.763266670119843,0.6398479234243135,0.8764139720019352,100
+wave1,b,   within management,7,weighted,"income*socio13*age restricted to ['131'], age-standardised",0.6638191339832321,0.3771804750181227,0.9327898187615759,100

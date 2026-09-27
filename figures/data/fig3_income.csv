@@ -1,0 +1,13 @@
+wave,stratifier,fit,fit_order,metric,population,median,lo,hi,n_draws
+wave1,income_wa,As measured,0,RII_attack_B,working age,0.9103244019005404,0.6796908034020104,1.3499588230718371,100
+wave1,income_wa,As measured,0,RII_prot,working age,0.6666384933508893,0.5405663056967572,0.7324679208451071,100
+wave1,income_wa,As measured,0,RII_disp,working age,1.5158022617650528,0.262176578510562,4.172473560860338,100
+wave1,income_wa_age_std,Age held constant,1,RII_attack_B,working age,0.6630253558792472,0.5380396266674695,0.7796950715719364,100
+wave1,income_wa_age_std,Age held constant,1,RII_prot,working age,0.6391605032043202,0.5554475054958578,0.7061310993272093,100
+wave1,income_wa_age_std,Age held constant,1,RII_disp,working age,1.658644289397209,0.2396272755348019,3.5917673234865983,100
+wave1,income_wa_exposure_fixed_std,Workplace exposure held constant,2,RII_attack_B,working age,1.161639227384096,0.8850045097556319,1.784844038939276,100
+wave1,income_wa_exposure_fixed_std,Workplace exposure held constant,2,RII_prot,working age,0.8161743341667158,0.6270290469787937,0.8875222618220625,100
+wave1,income_wa_exposure_fixed_std,Workplace exposure held constant,2,RII_disp,working age,1.17786262668006,0.0868268802762803,3.493921081436155,100
+wave1,income_wa_workplace_band*age_std,Both held constant,3,RII_attack_B,working age,0.840676978432218,0.7519767892884875,0.9427781667825303,100
+wave1,income_wa_workplace_band*age_std,Both held constant,3,RII_prot,working age,0.8652873771850272,0.7871721009953992,0.953776866343259,100
+wave1,income_wa_workplace_band*age_std,Both held constant,3,RII_disp,working age,1.0851671823165634,-0.0083592500256332,2.1844521971864874,100

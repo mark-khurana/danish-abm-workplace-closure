@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Workplace closure and who it protects: an agent-based model of Denmark"
+type: software
+license: MIT
+authors:
+  - {family-names: Khurana, given-names: Mark P.}
+  - {family-names: Curran-Sebastian, given-names: Jacob}
+  - {family-names: Morgenstern, given-names: Christian}
+  - {family-names: Scheidwasser, given-names: Neil}
+  - {family-names: Sloth, given-names: Mathilde Marie Brünnich}
+  - {family-names: Møller, given-names: Frederik T.}
+  - {family-names: Jokelainen, given-names: Pikka}
+  - {family-names: Rasmussen, given-names: Morten}
+  - {family-names: Stegger, given-names: Marc}
+  - {family-names: Duchêne, given-names: David A.}
+  - {family-names: Mortensen, given-names: Laust H.}
+  - {family-names: Krause, given-names: Tyra G.}
+  - {family-names: Bhatt, given-names: Samir}
+preferred-citation:
+  type: article
+  title: "Indirect protection and unequal reach of workplace closure across income groups in Denmark"
+  authors:
+    - {family-names: Khurana, given-names: Mark P.}
+    - {family-names: Curran-Sebastian, given-names: Jacob}
+    - {family-names: Morgenstern, given-names: Christian}
+    - {family-names: Scheidwasser, given-names: Neil}
+    - {family-names: Sloth, given-names: Mathilde Marie Brünnich}
+    - {family-names: Møller, given-names: Frederik T.}
+    - {family-names: Jokelainen, given-names: Pikka}
+    - {family-names: Rasmussen, given-names: Morten}
+    - {family-names: Stegger, given-names: Marc}
+    - {family-names: Duchêne, given-names: David A.}
+    - {family-names: Mortensen, given-names: Laust H.}
+    - {family-names: Krause, given-names: Tyra G.}
+    - {family-names: Bhatt, given-names: Samir}

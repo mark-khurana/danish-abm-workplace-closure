@@ -1,0 +1,6 @@
+wave,policy,oxcgrt_column,start_date,end_date,days_active,wave_days,median_level
+wave1,gathering_ban,gathering_restrictions,2020-12-16,2021-02-28,75,75,4.0
+wave1,mask_mandate,mask_policy,2020-12-16,2021-02-28,75,75,2.0
+wave1,school_closure,school_closing,2020-12-16,2021-02-28,75,75,2.0
+wave1,social_distancing,,,,0,75,
+wave1,workplace_closure,workplace_closing,2020-12-16,2021-02-28,75,75,3.0

@@ -1,0 +1,49 @@
+# Epidemiological parameters for the study period (16 December 2020 to 28 February 2021).
+# Values are {mean, ci95}; sources are listed in the paper's supplementary material.
+
+start_date: "2020-12-16"
+end_date: "2021-02-28"
+
+variant:
+  name: wild_type
+
+R0: {mean: 2.87, ci95: [2.39, 3.44]}
+
+seasonal_amplitude: {mean: 0.15, ci95: [0.05, 0.25]}
+
+latent_period: {mean: 5.1, ci95: [4.5, 5.8]}
+
+generation_time: {mean: 5.20, ci95: [3.78, 6.78]}
+
+infectious_period: {mean: 5.0, ci95: [3.0, 8.0]}
+
+death_delay: {mean: 17.8, ci95: [16.9, 19.2]}
+
+asymptomatic_fraction: {mean: 0.351, ci95: [0.307, 0.399]}
+
+asymptomatic_infectiousness: {mean: 0.35, ci95: [0.10, 1.00]}
+
+ifr: {mean: 0.0068, ci95: [0.0053, 0.0082]}
+
+ihr: {mean: 0.029, ci95: [0.015, 0.050]}
+
+hospitalization_delay: {mean: 6, ci95: [3, 10]}
+
+age_ifr_multiplier: [0.0029, 0.0029, 0.0137, 0.0460, 0.1409, 0.3810, 1.1007, 6.3119]
+age_ihr_multiplier: [0.001, 0.001, 0.007, 0.014, 0.024, 0.049, 0.103, 0.21]
+
+immunity_waning: {mean: 365, ci95: [240, 540]}
+
+reinfection_susceptibility: {mean: 0.0, ci95: [0.0, 0.05]}
+
+vaccination:
+  enabled: false
+
+npis: denmark_historical
+
+testing:
+  sensitivity: {mean: 0.954}
+  specificity: {mean: 0.9996}
+  isolation_duration: 7
+  isolation_reduction: {mean: 0.86}
+  isolation_in_transmission: true

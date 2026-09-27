@@ -1,0 +1,13 @@
+# Install agent-torch separately without its dependencies:
+#   pip install --no-deps agent-torch==0.6.0
+torch>=2.0
+torch_geometric
+numpy
+scipy
+pandas
+pyarrow
+omegaconf
+networkx
+psutil
+pyyaml
+pytest
