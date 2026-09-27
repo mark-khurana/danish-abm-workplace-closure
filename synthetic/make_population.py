@@ -3,7 +3,7 @@
 
 Everything here is invented. The distributions are simple and chosen only so that
 every part of the model has something to act on (all four workplace groups, all four
-income quartiles, children in school classes, a vaccine rollout, a testing record).
+income quartiles, children at school, a vaccine rollout, a testing record).
 They do not reproduce, and are not derived from, any register data. Results from this
 population say nothing about Denmark.
 
@@ -123,7 +123,7 @@ def build(n: int, seed: int):
     ids = rng.permutation(n)
     households = _chunk(ids, rng.choice([1, 2, 3, 4, 5], size=n, p=[.3, .3, .15, .15, .1]))
 
-    # Family living elsewhere: link each household to one other household.
+    # Family: link each household to relatives in one other household.
     fam = []
     for h in households:
         other = households[rng.integers(len(households))]
@@ -138,7 +138,7 @@ def build(n: int, seed: int):
         neigh_groups += _chunk(members, np.full(len(members), 12))
     neighborhood = _edges_within(neigh_groups, rng, max_contacts=6)
 
-    # School classes: children and teenagers, about 22 per class, by age band.
+    # School: children and teenagers in the same age band, in groups of about 22.
     classes = []
     for a in (0, 1):
         pupils = rng.permutation(np.where(age == a)[0])

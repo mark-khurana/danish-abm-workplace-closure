@@ -279,7 +279,7 @@ FIG1_CAP <- c(
   "(a) The five contact layers on which the model transmits, with the community channel, drawn for twelve people.",
   "Layers are six settings in which the same 5\u00b78 million individuals meet, not six separate networks; the same",
   "twelve people appear on every layer in the same position, and one individual is traced through the stack in",
-  "blue. Pale shading marks households, one school class, and one workplace. Positions are illustrative; the",
+  "blue. Pale shading marks households, one school, and one workplace. Positions are illustrative; the",
   "layers and their structure are not.",
   paste0("(b) Reported cases per day and the interventions in force over the ",
          if (length(REPORTED) == 1) "period" else "periods",
@@ -303,7 +303,7 @@ FIG1_CAP <- c(
 SETTINGS_CSV <- if (length(.args) >= 3) .args[3] else "paper_figures/fig1_settings.csv"
 
 LAYER_LAB <- c(colleague = "At work", household = "At home",
-               family = "With family elsewhere",
+               family = "With family",
                classmate = "At school", neighborhood = "In the neighbourhood",
                `community(mean-field)` = "In the wider community")
 
@@ -384,7 +384,7 @@ if (!is.null(pc)) {
                 "School closure follows the same schedule in both scenarios, so school contact is identical in the",
                 "ratio; differences at school arise from the proportion of contacts that were infectious. Infections",
                 "acquired at school in wave 1 arise from the days on which schools were open to some grades.",
-                "\"With family elsewhere\" is contact with relatives outside the respondent's own household.",
+                "\"With family\" is contact with registered relatives.",
                 "(c) covers the whole modelled population: per-setting transmission is recorded for the simulation as",
                 "a whole and is not stratified by age, so unlike Figure 2 it cannot be restricted to working age.",
                 INTERVAL_PHRASE))

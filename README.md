@@ -5,8 +5,8 @@ Code and figure data for the paper
 > **Indirect protection and unequal reach of workplace closure across income groups in Denmark**
 
 The model represents every resident of Denmark as an individual, connected through
-five layers of recorded contacts (household, family living elsewhere, neighbourhood,
-school class and workplace) plus an age-structured community channel. It compares the
+five layers of recorded contacts (household, family, neighbourhood, school and
+workplace) plus an age-structured community channel. It compares the
 winter 2020–21 reduction in workplace contact with a counterfactual in which workplace
 contact continued, and asks how the infections it prevented were shared across
 workplace groups, income quartiles and occupations.
